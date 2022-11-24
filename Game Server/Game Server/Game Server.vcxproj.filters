@@ -1,0 +1,1053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Projeto IOCP\COMPRESS\compress.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\COMPRESS\minilzo.c" />
+    <ClCompile Include="..\..\Projeto IOCP\CRYPT\crypt.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\database.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\exec_query.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\mssql.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\mysql_db.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\normal_db.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\normal_manager_db.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\postgresql.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\response.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\DATABASE\result_set.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\PACKET\packet.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\PACKET\packet_func.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\pangya_db.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\Server\server.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\Smart Calculator\Smart Calculator.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\SOCKET\session.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\SOCKET\session_manager.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\SOCKET\socket.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\SOCKET\socketserver.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\SOCKET\wsa.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\THREAD POOL\job_pool.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\THREAD POOL\thread.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\THREAD POOL\threadpl_server.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\THREAD POOL\threadpool.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\TIMER\timer.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\TIMER\timer_manager.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UNIT\unit_auth_server_connect.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UNIT\unit_connect.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\buffer.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\Color.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\exception.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\func_arr.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\md5.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\message.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\message_pool.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\random_gen.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\reader_ini.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\util_time.cpp" />
+    <ClCompile Include="..\GAME\channel.cpp" />
+    <ClCompile Include="..\GAME\game.cpp" />
+    <ClCompile Include="..\GAME\login_manager.cpp" />
+    <ClCompile Include="..\GAME\login_task.cpp" />
+    <ClCompile Include="..\GAME\mail_box_manager.cpp" />
+    <ClCompile Include="..\GAME\player_mail_box.cpp" />
+    <ClCompile Include="..\PACKET\packet_func_sv.cpp" />
+    <ClCompile Include="..\SESSION\player.cpp" />
+    <ClCompile Include="..\SESSION\player_manager.cpp" />
+    <ClCompile Include="..\TYPE\player_info.cpp" />
+    <ClCompile Include="..\UNIT\unit_gg_auth_server_connect.cpp" />
+    <ClCompile Include="..\UTIL\ball3d.cpp" />
+    <ClCompile Include="..\UTIL\block_exec_one_per_time.cpp" />
+    <ClCompile Include="..\UTIL\block_memory_manager.cpp" />
+    <ClCompile Include="..\UTIL\broadcast_list.cpp" />
+    <ClCompile Include="..\UTIL\club3d.cpp" />
+    <ClCompile Include="..\UTIL\club_info3d.cpp" />
+    <ClCompile Include="..\UTIL\extra_power.cpp" />
+    <ClCompile Include="..\UTIL\lottery.cpp" />
+    <ClCompile Include="..\UTIL\map.cpp" />
+    <ClCompile Include="..\UTIL\matrix3d.cpp" />
+    <ClCompile Include="..\UTIL\mgr_achievement.cpp" />
+    <ClCompile Include="..\UTIL\mgr_daily_quest.cpp" />
+    <ClCompile Include="..\UTIL\quad_tree3d.cpp" />
+    <ClCompile Include="..\UTIL\sys_achievement.cpp" />
+    <ClCompile Include="..\UTIL\vector3d.cpp" />
+    <ClCompile Include="Game Server.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="..\GAME\attendance_reward_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\approach_mission_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\box_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\card_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\coin_cube_location_update_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\comet_refill_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\cube_coin_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\drop_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\golden_time_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\login_reward_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\memorial_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\papel_shop_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\premium_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\treasure_hunter_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_ball.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_achievement_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_caddie.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_card.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_add_character.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_character_hair_style.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_clubset.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_counter_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_dolfini_locker_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_furniture.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_add_item_base.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_login_reward_player.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_mascot.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_msg_mail.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_part.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_skin.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_add_trofel_especial.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_approach_missions.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_attendance_reward_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_attendance_reward_item_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_auth_key_game.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_auth_key_login.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_auth_key_login_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_bot_gm_event_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_box_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_caddie_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_card_equip_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_card_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_card_pack.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_character_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_chat_macro_user.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_check_achievement.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_coin_cube_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_coin_cube_location_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_comet_refill_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_cookie.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_coupon_gacha.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_create_achievement.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_create_quest.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_daily_quest_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_daily_quest_info_user.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_achievement.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_ball.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_caddie.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_card.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_counter_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_daily_quest.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_dolfini_locker_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_email.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_furniture.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_mascot.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_quest.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_delete_rental.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_dolfini_locker_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_drop_course_config.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_drop_course_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_email_info2.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_equip_card.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_extend_rental.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_caddie.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_card.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_character.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_dolfini_locker_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_furniture.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_mail_box_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_mascot.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_trofel_especial.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_ucc.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_find_warehouse_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_friend_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_gera_ucc_web_key.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_gera_web_key.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_get_gift_clubset.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_get_gift_part.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_gift_clubset.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_gift_part.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_golden_time_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_golden_time_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_golden_time_round.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_grand_prix_clear.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_grand_zodiac_event_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_grand_zodiac_pontos.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_update_activity_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_insert_block_ip.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_insert_block_mac.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_box_rare_win_log.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_command.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_cp_log.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_cp_log_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_grand_prix_clear.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_memorial_rare_win_log.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_msg_off.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_papel_shop_rare_win_log.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_spinning_cube_super_rare_win_broadcast.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_ticker.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_ticket_report.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_ticket_report_data.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_item_buff_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_item_left_from_email.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_last_player_game_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_legacy_tiki_shop_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_list_ip_ban.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_list_mac_ban.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_login_reward_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_login_reward_player_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_mail_box_info2.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_map_statistics.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_mascot_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_member_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_memorial_level_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_memorial_normal_item_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_msg_off_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_my_room_config.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_my_room_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_new_auth_server_key.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_old_daily_quest_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_pang.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_papel_shop_config.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_papel_shop_coupon.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_papel_shop_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_pay_caddie_holy_day.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_personal_shop_log.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_player_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_premium_ticket_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_put_item_mail_box.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_rate_config_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_register_guild_match.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_register_logon.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_register_logon_server.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_register_server.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_remove_equiped_card.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_server_list.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_set_notice_caddie_holy_day.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_ticket_report_dados_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_transfer_part.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_treasure_hunter_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_treasure_hunter_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_trofel_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_trophy_special.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_tuto_event_clear.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_tutorial_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_achievement_user.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_attendance_reward.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_update_auth_key_login.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_ball_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_ball_qntd.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_caddie_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_caddie_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_caddie_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_card_qntd.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_card_special_time.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_character_all_part_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_character_cutin_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_update_character_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_character_mastery.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_character_pcl.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_chat_macro_user.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_clubset_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_clubset_stats.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_clubset_time.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_clubset_workshop.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_coin_cube_location.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_cookie.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_counter_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_daily_quest.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_daily_quest_user.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_dolfini_locker_mode.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_dolfini_locker_pang.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_dolfini_locker_pass.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_email.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_golden_time.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_grand_prix_clear.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_guild_member_points.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_guild_points.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_guild_update_activity.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_item_buff.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_item_qntd.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_item_slot.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_last_player_game.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_legacy_tiki_shop_point.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_level_and_exp.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_login_reward.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_login_reward_player.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_map_statistics.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_mascot_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_mascot_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_mascot_time.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_normal_trofel.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_pang.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_papel_shop_config.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_papel_shop_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_player_location.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_poster_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_premium_ticket_time.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_quest_user.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_update_rate_config_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_skin_equiped.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_treasure_hunter_course_point.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_trofel_especial_qntd.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_tutorial.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_ucc.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_user_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_use_item_buff.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_user_equip.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_user_info.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Projeto IOCP\PANGYA_DB\cmd_verify_nick.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_warehouse_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\approach.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\bot_gm_event.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\chip_in_practice.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\grand_prix.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\grand_zodiac.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\grand_zodiac_base.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\grand_zodiac_event.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\guild.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\guild_battle.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\guild_room_manager.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\room.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\room_bot_gm_event.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\room_grand_prix.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\practice.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\room_grand_zodiac_event.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\team.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\tourney.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\tourney_base.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\versus.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\versus_base.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\course.cpp">
+      <Filter>Game\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\dupla.cpp">
+      <Filter>Game\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\dupla_manager.cpp">
+      <Filter>Game\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\hole.cpp">
+      <Filter>Game\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\personal_shop.cpp">
+      <Filter>Game\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\personal_shop_manager.cpp">
+      <Filter>Game\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\room_manager.cpp">
+      <Filter>Game\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\pang_battle.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\match.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\special_shuffle_course.cpp">
+      <Filter>Game\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\scratch_card_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_scratch_card_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_scratch_card_rare_win_log.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_scratch_card_coupon.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GAME\guild_system.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_info_list.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_change_nick.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TYPE\_3d_type.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_coupon_desconto.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_box_rare_item.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_scratch_card_rate.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_1st_anniversary.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="game_server.cpp" />
+    <ClCompile Include="..\CSAuth\GGAuth.cpp" />
+    <ClCompile Include="..\TYPE\gm_info.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\hex_util.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\UTIL\iff.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\THREAD POOL\job.cpp" />
+    <ClCompile Include="..\..\Projeto IOCP\IOCP\iocp.cpp" />
+    <ClCompile Include="..\GAME\item_manager.cpp" />
+    <ClCompile Include="..\PANGYA_DB\cmd_insert_notice.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_infos.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_log.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_member.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_promote.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_create.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_available.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_join.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_aceita.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_kick.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_guild_intro.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_update_guild_msg.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_message.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_image.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_mark.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_guild_cancel.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PANGYA_DB\cmd_member_logon.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Projeto IOCP\UTIL\Color.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\GAME\personal_shop_manager.hpp">
+      <Filter>Game\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GAME\scratch_card_system.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_scratch_card_item.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_insert_scratch_card_rare_win_log.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_scratch_card_coupon.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GAME\guild_system.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_info_list.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_change_nick.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TYPE\guild_system_type.hpp">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TYPE\scratch_card_type.hpp">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TYPE\pangya_coupon_type.hpp">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_coupon_desconto.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_box_rare_item.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_scratch_card_rate.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_1st_anniversary.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="game_server.h" />
+    <ClInclude Include="..\PANGYA_DB\cmd_insert_notice.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_infos.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_log.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_member.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_promote.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_create.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_available.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_join.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_aceita.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_kick.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_update_guild_intro.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_update_guild_msg.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_message.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_image.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_mark.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_guild_cancel.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PANGYA_DB\cmd_member_logon.hpp">
+      <Filter>CMD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{5c3ed81a-843a-4900-b2e0-977f18b923c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMD">
+      <UniqueIdentifier>{7c78441f-7866-4287-a7db-4acf53350d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bbeacb40-11b4-4f66-9ee4-ca05479c566b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Mode">
+      <UniqueIdentifier>{877335e7-2199-4274-a906-df61c7264e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Utils">
+      <UniqueIdentifier>{33922bab-5e2e-4fff-a07c-cf08eaa6f828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{6ab56706-670f-459a-99be-170995e04d2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
